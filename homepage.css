@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Top bar */
+.topbar {
+  background: #fff;
+  color: #2c3e50;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  font-size: 14px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.topbar .social i {
+  margin-left: 15px;
+  cursor: pointer;
+  color: #2c3e50;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e5631;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo h2 {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo i {
+  color: #7bed9f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7bed9f;
+}
+
+.cart i {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: url("agriculture-new.jpg") no-repeat center center/cover;
+  height: 90vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.hero-text h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
